@@ -1,0 +1,125 @@
+[14-Oct-2021 03:59:50 Australia/Sydney] PHP Notice:  Undefined variable: is_preview in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/featured_slider.php on line 12
+[14-Oct-2021 03:59:50 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function display_featured_slider_block() in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/featured_slider.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/featured_slider.php on line 14
+[18-Oct-2021 03:22:17 Australia/Sydney] PHP Notice:  Undefined variable: is_preview in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/testimonial_slider.php on line 12
+[18-Oct-2021 03:22:17 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function display_testimonial_slider_block() in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/testimonial_slider.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/testimonial_slider.php on line 14
+[18-Oct-2021 13:51:48 Australia/Sydney] PHP Notice:  Undefined variable: is_preview in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/text_with_services.php on line 12
+[18-Oct-2021 13:51:48 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function display_text_with_services_block() in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/text_with_services.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/text_with_services.php on line 14
+[22-Oct-2021 19:36:17 Australia/Sydney] PHP Notice:  Undefined variable: is_preview in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/text_editor.php on line 12
+[22-Oct-2021 19:36:17 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function display_text_editor_block() in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/text_editor.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/text_editor.php on line 14
+[03-Nov-2021 03:06:21 Australia/Sydney] PHP Notice:  Undefined variable: is_preview in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/contact_section.php on line 12
+[03-Nov-2021 03:06:21 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function display_contact_section_block() in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/contact_section.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/contact_section.php on line 14
+[30-Nov-2021 10:45:32 Australia/Sydney] PHP Notice:  Undefined variable: is_preview in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/blog_grid.php on line 12
+[30-Nov-2021 10:45:32 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function display_blog_grid_block() in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/blog_grid.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/blog_grid.php on line 14
+[20-Dec-2021 05:15:19 Australia/Sydney] PHP Notice:  Undefined variable: is_preview in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/contact_section.php on line 12
+[20-Dec-2021 05:15:19 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function display_contact_section_block() in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/contact_section.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/contact_section.php on line 14
+[13-Jan-2022 06:15:57 Australia/Sydney] PHP Notice:  Undefined variable: is_preview in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/featured_slider.php on line 12
+[13-Jan-2022 06:15:57 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function display_featured_slider_block() in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/featured_slider.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/featured_slider.php on line 14
+[17-Jan-2022 15:38:54 Australia/Sydney] PHP Notice:  Undefined variable: is_preview in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/text_with_services.php on line 12
+[17-Jan-2022 15:38:54 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function display_text_with_services_block() in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/text_with_services.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/text_with_services.php on line 14
+[03-Feb-2022 21:40:47 Australia/Sydney] PHP Notice:  Undefined variable: is_preview in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/contact_section.php on line 12
+[03-Feb-2022 21:40:47 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function display_contact_section_block() in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/contact_section.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/contact_section.php on line 14
+[01-Mar-2022 18:14:11 Australia/Sydney] PHP Notice:  Undefined variable: is_preview in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/featured_slider.php on line 12
+[01-Mar-2022 18:14:11 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function display_featured_slider_block() in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/featured_slider.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/featured_slider.php on line 14
+[14-Mar-2022 16:47:42 Australia/Sydney] PHP Notice:  Undefined variable: is_preview in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/text_with_image.php on line 12
+[14-Mar-2022 16:47:42 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function display_text_with_image_block() in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/text_with_image.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/text_with_image.php on line 14
+[04-Mar-2023 05:42:54 Australia/Melbourne] PHP Notice:  Undefined variable: is_preview in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/text_with_services.php on line 12
+[04-Mar-2023 05:42:54 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function display_text_with_services_block() in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/text_with_services.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/text_with_services.php on line 14
+[14-Jun-2023 07:36:25 Australia/Melbourne] PHP Notice:  Undefined variable: is_preview in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/text_with_services.php on line 12
+[14-Jun-2023 07:36:25 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function display_text_with_services_block() in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/text_with_services.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/text_with_services.php on line 14
+[17-Jun-2023 11:50:45 Australia/Melbourne] PHP Notice:  Undefined variable: is_preview in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/text_editor.php on line 12
+[17-Jun-2023 11:50:45 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function display_text_editor_block() in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/text_editor.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/text_editor.php on line 14
+[02-Aug-2023 00:31:39 Australia/Melbourne] PHP Notice:  Undefined variable: is_preview in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/contact_section.php on line 12
+[02-Aug-2023 00:31:39 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function display_contact_section_block() in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/contact_section.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/contact_section.php on line 14
+[06-Aug-2023 08:38:05 Australia/Melbourne] PHP Notice:  Undefined variable: is_preview in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/blog_grid.php on line 12
+[06-Aug-2023 08:38:05 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function display_blog_grid_block() in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/blog_grid.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/blog_grid.php on line 14
+[17-Aug-2023 13:23:48 Australia/Melbourne] PHP Notice:  Undefined variable: is_preview in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/text_editor.php on line 12
+[17-Aug-2023 13:23:48 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function display_text_editor_block() in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/text_editor.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/text_editor.php on line 14
+[26-Aug-2023 06:55:06 Australia/Melbourne] PHP Notice:  Undefined variable: is_preview in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/featured_slider.php on line 12
+[26-Aug-2023 06:55:06 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function display_featured_slider_block() in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/featured_slider.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/featured_slider.php on line 14
+[04-Oct-2023 10:42:29 Australia/Melbourne] PHP Notice:  Undefined variable: is_preview in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/text_with_image.php on line 12
+[04-Oct-2023 10:42:29 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function display_text_with_image_block() in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/text_with_image.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/text_with_image.php on line 14
+[11-Oct-2023 14:11:12 Australia/Melbourne] PHP Notice:  Undefined variable: is_preview in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/text_editor.php on line 12
+[11-Oct-2023 14:11:12 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function display_text_editor_block() in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/text_editor.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/text_editor.php on line 14
+[14-Nov-2023 13:08:52 Australia/Melbourne] PHP Notice:  Undefined variable: is_preview in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/featured_slider.php on line 12
+[14-Nov-2023 13:08:52 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function display_featured_slider_block() in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/featured_slider.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/featured_slider.php on line 14
+[04-Dec-2023 17:10:19 Australia/Melbourne] PHP Notice:  Undefined variable: is_preview in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/text_editor.php on line 12
+[04-Dec-2023 17:10:19 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function display_text_editor_block() in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/text_editor.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/text_editor.php on line 14
+[20-Apr-2024 20:04:59 Australia/Melbourne] PHP Notice:  Undefined variable: is_preview in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/contact_section.php on line 12
+[20-Apr-2024 20:04:59 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function display_contact_section_block() in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/contact_section.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/contact_section.php on line 14
+[25-Apr-2024 16:42:16 Australia/Melbourne] PHP Notice:  Undefined variable: is_preview in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/blog_grid.php on line 12
+[25-Apr-2024 16:42:16 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function display_blog_grid_block() in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/blog_grid.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/acf-layouts/blog_grid.php on line 14

@@ -1,0 +1,160 @@
+.services_main_wrapper{
+	display:flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	// display:inline-block;
+	// width:100%;
+	&.service_style2{
+		.service_box{
+			&__wrapper{
+				width:21%;
+				margin-bottom: 65px;
+			}
+		}
+	}	
+}
+.service_style2{
+	.description{
+		line-height:2rem;
+	}
+	.talktous{
+		margin-top: 30px;
+		display: inline-block;
+	}
+}
+.service_box{
+	&__wrapper{
+		position: relative;
+		background: $color__white 0% 0% no-repeat padding-box;
+		border-radius: 10px;
+		padding:50px 30px 20px ;
+		margin: 0 10px 20px;
+		flex-grow: 0;
+		width: 31%;
+		min-height: 285px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		transition:all 0.4s;
+			&:nth-child(3n){
+				margin-right:0px;	
+			}
+			&.dark_last{
+				background:$color__blue;
+				padding:0px;
+				display: flex;
+				justify-content:center;
+			}	
+		&:hover{
+			background:$color__blue;
+			.service_box__title{
+				color:$color__white;
+			}
+			.service_box__link{
+				color:$color__white;
+			}
+			box-shadow: 0px 6px 10px #00000029;
+		}	
+		&.dark_last:hover{
+			background:$color__white;
+			.service_box__link_entire{
+				color:$color__blue !important;
+			}
+		}
+	}
+	
+	&__link_entire{
+		// position:absolute;
+		// height: 100%;
+		// width: 100%;
+		// text-align: center;
+		// top:50%;
+		// right:0;
+		// bottom:0;
+		// left: 50%;
+		// transform: translate(-50%, -50%);
+		width:100%;
+		color:$color__white !important;
+		text-decoration:none;
+		font-size: 2.4rem;
+		line-height:2.9rem;
+		text-align: center;
+	}
+	&__title{
+		font-size:2.4rem;
+		line-height:2.9rem;
+		justify-self: center;
+		letter-spacing: 0px;
+		color: $color__title;
+		padding-bottom: 30px;
+	}
+	&__link{
+		font-size:1.6rem;
+		line-height:1.9rem;
+		// margin-top: auto;
+		letter-spacing: 0px;
+		color: $color__blue;
+		text-transform: uppercase;
+		align-self: flex-start;
+	}
+}
+
+@include forsize(tabletpdown) {    
+	.services_main_wrapper{
+		margin-top: 50px;
+		&.service_style2{
+			.service_box{
+				&__wrapper{
+					width: 30%;
+				}
+			}
+		}	
+	}
+	.service_style2{
+		.description{
+			width:100%;
+		}
+		.text-align-right{
+			text-align: center;
+		}
+		.talktous{
+			margin-top: 0px;
+		}
+		.title_wrapper{
+			text-align: center;
+		}
+	}
+	.service_box{
+		&__wrapper{
+			padding:50px 30px 20px ;
+			margin: 0 10px 30px;
+			width: 30%;		
+		}
+	}
+	
+	
+}
+
+@include forsize(phoneonly) {    
+	.services_main_wrapper{
+		
+		&.service_style2{
+			.service_box{
+				&__wrapper{
+					width: 100%;
+				}
+			}
+		}	
+	}
+	.service_box{
+		&__wrapper{
+			width: 100%;		
+			&:nth-child(3n){
+				margin-right:10px;	
+			}
+		}
+	}
+	
+	
+}

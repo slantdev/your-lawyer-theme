@@ -1,0 +1,26 @@
+// Center block
+@mixin center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+// Column width with margin
+@mixin column-width($numberColumns: 3) {
+	width: map-get($columns, $numberColumns) - ( ( $columns__margin * ( $numberColumns - 1 ) ) / $numberColumns );
+}
+
+@mixin forsize($size) {
+	@if $size == phoneonly {
+	  @media (max-width: 599px) { @content; }
+	} @else if $size == tabletpdown {
+	  @media (max-width: 768px) { @content; }
+	} @else if $size == tabletluptodesktop {
+		@media(min-width:1024px) and (max-width:1300px) { @content; }
+	} 
+	// @else if $size == desktop {
+	//   @media (min-width: 1200px) { @content; }
+	// } @else if $size == big-desktop-up {
+	//   @media (min-width: 1800px) { @content; }
+	// }
+}

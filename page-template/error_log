@@ -1,0 +1,32 @@
+[24-Sep-2021 16:29:01 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/page-template/people_list.php:12
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/page-template/people_list.php on line 12
+[09-Nov-2021 19:14:24 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/page-template/acf_content_blocks.php:12
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/page-template/acf_content_blocks.php on line 12
+[11-Feb-2022 11:40:28 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/page-template/people_list.php:12
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/page-template/people_list.php on line 12
+[05-Mar-2023 21:15:35 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/page-template/people_list.php:12
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/page-template/people_list.php on line 12
+[11-Aug-2023 06:32:41 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/page-template/acf_content_blocks.php:12
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/page-template/acf_content_blocks.php on line 12
+[06-Sep-2023 11:40:10 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/page-template/people_list.php:12
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/page-template/people_list.php on line 12
+[31-Oct-2023 14:36:33 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/page-template/people_list.php:12
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/page-template/people_list.php on line 12
+[23-Dec-2023 03:27:10 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/page-template/people_list.php:12
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/page-template/people_list.php on line 12

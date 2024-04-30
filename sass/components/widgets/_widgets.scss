@@ -1,0 +1,97 @@
+.widget {
+	margin: 0 0 1.5em;
+
+	// Make sure select elements fit in widgets.
+	select {
+		max-width: 100%;
+	}
+}
+
+.section_container{
+	padding:100px 0 90px;
+}
+
+.sub_title{
+	color:$color__sub_title;
+	border-bottom: 2px solid $color__blue;
+	display: inline-block;
+	padding-bottom:10px;
+	font-size:1.8rem;
+	line-height: 3rem;
+	font-weight: 500;
+}
+.main_title{
+	color:$color__title;
+}
+.description{
+	width:100%;
+	margin-bottom: 50px;
+	@extend p;
+	p{
+		color:$color__sub_title;
+	}
+}
+
+.darksection{
+	.sub_title{
+		color:$color__white;
+	}
+	.main_title{
+		color:$color__white;
+	}
+	.description{
+		color:$color__white;
+		p{
+			color:$color__white;
+		}
+	}
+}
+
+.widget_recent_entries{
+	ul{
+		margin-left: 0;
+		padding-left: 15px;
+		li{
+			@extend p;
+			&::marker {
+				color:#81b9df; /* Change the color */
+			}
+			a{
+				color:#81b9df; /* Change the color */
+				font-family: 'Brandon Grotesque';
+			}
+			border-bottom: 1px solid rgb(173, 173, 173);
+			padding:10px 0 10px;
+			margin: 0 0 0 0;
+		}
+	}
+}
+
+.widget-title{
+	font-size: 1.8rem;
+    line-height: 2rem;
+    letter-spacing: 1.2px;
+    color: $color__white;
+    padding: 15px 10px;
+    font-weight: bold;
+	background: #597491;
+	text-transform: uppercase;
+}
+
+@include forsize(tabletpdown) {   
+	.description{
+		width:100%;
+	}
+	.section_container{
+		padding:60px 0 60px;
+	}
+}
+
+@include forsize(phoneonly) {   
+	.title_wrapper{
+		padding:20px 15px 20px;
+	}
+	.section_container{
+		padding:30px 0px 30px;
+	}
+}

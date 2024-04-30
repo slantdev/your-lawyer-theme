@@ -1,0 +1,75 @@
+:root {
+	font-size: 62.5%;
+	body {
+	  margin: 0;
+	  // Body font size 16px
+	  font-size: 1.6rem;
+	  background: $color__background-body; // Fallback for when there is no custom background color defined.
+	font-size:62.5%;
+	font-family: $font__main;
+	
+	}
+  }
+  body.logged-in {
+	padding-top: 32px;
+}
+
+.text-align-right{
+	text-align: right;
+}
+
+.text-align-center{
+	text-align: center;
+}
+
+.text-align-left{
+	text-align: left;
+}
+.center-title{
+	text-align: center;
+	width: 65%;
+	margin:0 auto;
+}
+.custom_container{
+	width: 83%;
+	margin: 0 auto;
+	display: flex;
+}
+.site-container{
+	background:$color__white;
+}
+p{
+	font-size: 1.6rem;
+	line-height: 1.8rem;
+}
+
+@include forsize(tabletpdown) {    
+
+	:root {
+		font-size: 50%;
+	  }
+	.center-title{
+		width: 90%;
+	}
+	.custom_container{
+		width: 95%;
+	}	
+	.text-align-right{
+		text-align: center;
+	}
+	p{
+		font-size: 1.8rem;
+		line-height: 2.2rem;
+	}
+}
+
+@include forsize(phoneonly) {    
+
+	:root {
+		font-size: 60%;
+	}
+	p{
+		font-size: 1.8rem;
+		line-height: 2.2rem;
+	}
+}

@@ -1,0 +1,75 @@
+.testimonial_featured{
+		padding-top: 40px;
+		&__wrapper{
+			background: #FFFFFF 0% 0% no-repeat padding-box;
+			box-shadow: 0px 4px 6px #00000029;
+			border: 1px solid #D6D6D6;
+			padding:50px 120px;
+			width:70%;
+			margin:0 auto 30px;
+			}
+		&__title{
+			font: normal normal bold 23px/55px Brandon Grotesque;
+			color: #111111;
+		}
+		&__label{
+			font: normal normal bold 2.1rem/5.7rem Brandon Grotesque;
+			letter-spacing: 0.2rem;
+			color: #959595;
+			border-bottom: 1px solid #959DA2;
+			padding-bottom:15px;
+			margin-bottom:30px;
+		}
+		&__content{
+			@extend p;
+			line-height: 2rem;
+			color: #000000CC;
+		}
+}
+.testimonial_main_wrapper{
+	.slick-prev,.slick-prev:hover{
+		background:url("../images/leftarrowblack.png") no-repeat;
+		left: 5%;
+		background-position: left top;
+		z-index: 99;
+	}
+	.slick-next,.slick-next:hover{
+		background:url("../images/rightarrowblack.png") no-repeat;
+		right: 5%;
+		background-position: right top;
+		z-index: 99;
+	}
+}
+
+@include forsize(tabletpdown) {    
+	.testimonial_featured{
+		&__wrapper{
+			padding:50px 20px;
+			width:80%;
+			margin:0 auto 30px;
+		}
+	}
+	.testimonial_main_wrapper{
+		.slick-prev{
+			left: -2%;
+			
+		}
+		.slick-next{
+			right: -2%;
+		}
+	}
+}
+
+@include forsize(phoneonly) {    
+	.testimonial_featured{
+		padding-top: 0px;
+		&__wrapper{
+			width:90%;
+		}
+	}
+	.testimonial_main_wrapper{
+		.slick-arrow{
+			display:none !important;
+		}
+	}
+}

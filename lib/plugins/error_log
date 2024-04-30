@@ -1,0 +1,4 @@
+[08-Dec-2021 15:08:59 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/lib/plugins/acf.php:8
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/lib/plugins/acf.php on line 8

@@ -1,0 +1,8 @@
+[09-Oct-2021 15:45:58 Australia/Sydney] PHP Fatal error:  Uncaught Error: Class 'Walker_Nav_Menu' not found in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/lib/classes/menu-walker.php:3
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/lib/classes/menu-walker.php on line 3
+[09-Jan-2022 05:16:15 Australia/Sydney] PHP Fatal error:  Uncaught Error: Class 'Walker_Nav_Menu' not found in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/lib/classes/menu-walker.php:3
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/lib/classes/menu-walker.php on line 3

@@ -1,0 +1,33 @@
+.search {
+    .herosection {
+        height: 380px;
+    }
+
+    .archive-title {
+        font-size: 5rem;
+        line-height: 5.5rem;
+        letter-spacing: .5px;
+    }
+
+    #meta-2 {
+        display: none;
+    }
+
+    .site-main, aside {
+        ul {
+            font-size: 16px;
+        }
+
+        article {
+            padding-bottom: 48px;
+
+            footer {
+                display: none;
+            }
+        }
+    }
+
+    .widget_search {
+        display: none;
+    }
+}

@@ -1,0 +1,146 @@
+.slick-initialized {
+	:focus{
+		outline: none;
+	}
+}
+
+.slick-dots{
+	li {
+		button{
+			border: 1px solid #707070;
+			border-radius: 30px;
+			width: 15px;
+			height: 15px;
+			background: $color__white;
+		}
+	}
+}
+.slick-dots .slick-active button{
+    background:$color__blue;
+}
+.slick-prev:before,.slick-next:before{
+	display:none;
+}
+
+.slick-prev,.slick-prev:hover{
+	background:url("../images/leftarrow.png") no-repeat;
+	left: -10%;
+	background-position: left top;
+}
+.slick-next,.slick-next:hover{
+	background:url("../images/rightarrow.png") no-repeat;
+	right: -10%;
+	background-position: right top;
+}
+.slick-prev,.slick-next{
+	width: 80px;
+	height: 80px;
+}
+
+.featured_slider_section{
+	padding: 0 0 0 0;
+	.slick-prev{
+		left: 5%;
+	}
+	.slick-next{
+		right: 5%;
+	}
+	.slick-prev,.slick-next{
+		width: 80px;
+		height: 80px;
+		z-index: 9999;
+	}
+	
+	.featured_slider_section_inner{
+		position: relative;
+		margin-bottom: -10px;
+	}
+	.featured_slider_section_opacity{
+		opacity: 38%;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		z-index: 1;
+		background:rgba(0,0,0,0.3);
+	}
+	.sub_title{
+		color:$color__white;
+		// border-bottom-color: $color__white;
+	}
+	.slick-track {
+		height: 600px;
+	}
+	.slick-slide {
+		display: flex;
+		align-items: center;
+	}
+}
+
+.featured_slider{
+	display: inline-block;
+	width:100%;
+	outline: none;
+}
+
+.service_featured{
+	padding: 100px 0 90px;
+	position: relative;
+	background-size: cover;
+	.container{
+		z-index: 2;
+		position: relative;
+		background:transparent
+	}
+	.title_wrapper{
+		padding-bottom: 65px;
+	}
+	&__title{	
+		color: $color__white;
+		margin: 0 0 35px 0;
+	}
+	&__excerpt{
+		color: $color__white;
+		@extend p;
+	}
+	&__talktolink{
+		@extend .btn;
+		margin-top: 30px;
+		display: inline-block;
+	}
+}
+
+@media (max-width: 1440px) {
+	.featured_slider_section{
+		.slick-prev{
+			left: 2%;
+		}
+		.slick-next{
+			right: 2%;
+		}
+	}
+}
+
+@media (max-width: 1025) {
+	.featured_slider_section{
+		.slick-prev{
+			left: -10%;
+		}
+		.slick-next{
+			right: -10%;
+		}
+	}
+}
+
+
+@include forsize(phoneonly) {   
+	
+	.featured_slider_section{
+		padding-left: 20px;
+		padding-right: 20px;
+		.slick-arrow{
+			display:none !important;
+		}
+	}
+}

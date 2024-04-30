@@ -1,0 +1,209 @@
+.servicepage_info__wrapper{
+	background-blend-mode: soft-light;
+	background-color: #0e5faa !important;
+	color: $color__white;
+	.featured_label{
+		font-weight:bold;
+		font-size:  4rem;
+		line-height: 4.5rem;
+		margin-top: 0;
+	}
+	.main_title{
+		font-weight:bold;
+		font-size:  2.8rem;
+		line-height: 4rem;
+		color: $color__white;
+		padding-bottom:10px;
+	}
+	.description,.description p{
+		// font-size:  2.2rem;
+		font-size: 1.6rem;
+		line-height: 3rem !important;
+		width: 100%;
+		margin-bottom: 0;
+		color:$color__white;
+	}
+}
+
+.single_post_content{
+	// padding:0px 0 100px 0;
+	background: #E7EFF4;
+	&__text{
+		padding-top: 80px;
+		padding-right: 30px;
+		padding-bottom: 80px;
+		ul,ol{
+			margin-top: 20px;
+		}
+		li{
+			@extend p
+		}
+		h3{
+			line-height:3rem;
+			margin-top:50px;
+			&:first-child{
+				margin-top:0px;
+			}
+		}
+		p{
+			line-height:3rem;
+			margin-bottom:0px;
+		}
+	}
+	&__sidebar{
+		background: #B5D7F4;
+		padding:20px 0 0 0;
+	}
+}
+.text_editor{
+	li{
+		@extend p
+	}
+}
+.single_blogpost_content{
+	&__sidebar{
+		padding:0px 0 0 0;
+	}
+}
+
+.service_hero_button{
+	text-align: right;
+	padding-top: 50px;
+}
+
+body.single-post{
+	.herosection{
+		background-image: none !important;
+		background: rgba(8,49,93,0.68);
+		.title_wrapper {
+			padding: 30px 20px 20px;
+		}
+	}
+	.sidebar_like_col{
+		padding: 20px;
+		background:$color__white;
+	}
+}
+
+
+@include forsize(tabletpdown) {    
+
+	.servicepage_info__wrapper{
+		.featured_label{
+			font-size:  3rem;
+			line-height: 3.5rem;
+		}
+		.main_title{
+			font-size:  2rem;
+			line-height: 3rem;
+			padding-bottom:20px;
+		}
+		.description{
+			font-size:  1.3rem;
+			line-height: 3rem !important;
+		}
+	}
+
+	.single_post_content{
+		padding:0px 0 50px 0;
+		&__sidebar{
+			margin:40px 0 0;
+		}
+	}
+	.service_form{
+		&__media{
+			text-align: center;
+			padding-top: 30px;
+		}
+	}
+
+	.service_hero_button{
+		text-align: left;
+		padding-top: 0px;
+		padding-bottom: 50px;
+	}
+
+}
+
+@include forsize(phoneonly) {    
+
+	.single_post_content{
+		padding:0px 0px 0px;
+		&__text{
+			padding-top: 40px;
+			padding:30px 20px 0px;
+			h3{
+				line-height:3rem;
+				margin-top:10px;
+				&:first-child{
+					margin-top:0px;
+				}
+			}
+			p{
+				line-height:3rem;
+				margin-bottom:0px;
+				padding-bottom: 0;
+			}
+		}
+		&__sidebar{
+			padding:0px 0 0 0;
+		}
+		.sidebar_like_col{
+			padding: 0 0 0 0;
+		}
+		.service_form{
+			&__media{
+				padding-top: 0px;
+			}
+		}
+	}
+
+
+}
+
+@include forsize(phone){
+	.servicepage_info__wrapper{
+		
+		.main_title{
+			padding-bottom:40px;
+		}
+		.description{
+		
+		}
+	}
+	
+	.single_post_content{
+		padding:0px 0 100px 0;
+		
+		&__text{
+			padding-top: 80px;
+			h3{
+		
+				margin-top:50px;
+				&:first-child{
+					margin-top:0px;
+				}
+			}
+			p{
+				
+				margin-bottom:0px;
+			}
+		}
+		&__sidebar{
+			
+			padding:20px 0 0 0;
+		}
+	}
+	
+	.service_hero_button{
+		padding-top: 50px;
+	}
+}
+
+@include forsize(tablet){
+	
+}
+
+@include forsize(phone){
+	
+}

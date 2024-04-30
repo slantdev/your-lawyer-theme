@@ -1,0 +1,164 @@
+[04-Aug-2021 05:17:33 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function remove_action() in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/single.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/single.php on line 17
+[04-Aug-2021 07:12:03 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function genesis() in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/page.php:15
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/page.php on line 15
+[04-Aug-2021 09:04:56 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/search.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/search.php on line 14
+[04-Aug-2021 12:52:31 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function do_action() in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/header.php:19
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/header.php on line 19
+[05-Aug-2021 06:24:13 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/search.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/search.php on line 14
+[07-Aug-2021 22:58:11 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function remove_action() in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/single.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/single.php on line 17
+[08-Aug-2021 05:22:01 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function do_action() in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/header.php:19
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/header.php on line 19
+[08-Aug-2021 12:16:27 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function genesis() in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/page.php:15
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/page.php on line 15
+[09-Aug-2021 09:57:25 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/search.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/search.php on line 14
+[11-Aug-2021 10:31:45 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function genesis_structural_wrap() in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/footer.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/footer.php on line 14
+[17-Aug-2021 01:15:17 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function genesis() in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/page.php:15
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/page.php on line 15
+[17-Aug-2021 03:11:57 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function remove_action() in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/single.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/single.php on line 17
+[17-Aug-2021 04:12:57 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function genesis_structural_wrap() in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/footer.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/footer.php on line 14
+[17-Aug-2021 11:19:17 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function do_action() in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/header.php:19
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/header.php on line 19
+[28-Aug-2021 00:16:10 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/search.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/search.php on line 14
+[01-Oct-2021 10:42:53 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function genesis_structural_wrap() in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/footer.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/footer.php on line 14
+[18-Oct-2021 11:11:22 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/search.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/search.php on line 14
+[11-Nov-2021 00:07:22 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function genesis() in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/page.php:15
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/page.php on line 15
+[13-Nov-2021 15:59:21 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function genesis_structural_wrap() in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/footer.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/footer.php on line 14
+[01-Dec-2021 03:42:13 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/search.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/search.php on line 14
+[29-Dec-2021 00:28:37 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function remove_action() in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/single.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/single.php on line 17
+[13-Feb-2022 04:16:09 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function remove_action() in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/single.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/single.php on line 17
+[13-Feb-2022 19:11:29 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function genesis() in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/page.php:15
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/page.php on line 15
+[03-Apr-2022 10:27:20 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function remove_action() in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/single.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/single.php on line 17
+[18-May-2023 08:25:27 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/search.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/search.php on line 14
+[22-May-2023 01:10:26 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function remove_action() in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/single.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/single.php on line 17
+[22-May-2023 01:31:10 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function do_action() in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/header.php:19
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/header.php on line 19
+[22-May-2023 23:17:56 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function genesis() in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/page.php:15
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/page.php on line 15
+[11-Aug-2023 09:39:47 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function do_action() in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/header.php:19
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/header.php on line 19
+[15-Aug-2023 04:43:18 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function genesis() in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/page.php:15
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/page.php on line 15
+[15-Aug-2023 07:50:46 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function genesis_structural_wrap() in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/footer.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/footer.php on line 14
+[05-Sep-2023 11:36:58 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function remove_action() in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/single.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/single.php on line 17
+[06-Oct-2023 07:16:44 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function genesis_structural_wrap() in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/footer.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/footer.php on line 14
+[30-Nov-2023 02:30:46 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function genesis_structural_wrap() in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/footer.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/footer.php on line 14
+[25-Jan-2024 07:12:02 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function genesis() in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/page.php:15
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/page.php on line 15
+[10-Feb-2024 04:04:44 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function remove_action() in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/single.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/single.php on line 17
+[11-Feb-2024 14:01:07 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function remove_action() in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/single.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/single.php on line 17
+[13-Feb-2024 07:09:20 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function remove_action() in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/single.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/single.php on line 17
+[01-Mar-2024 16:09:04 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/search.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/search.php on line 14
+[03-Apr-2024 04:48:08 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function do_action() in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/header.php:19
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/header.php on line 19
+[14-Apr-2024 15:17:58 Australia/Melbourne] PHP Fatal error:  Uncaught Error: Call to undefined function genesis() in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/page.php:15
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyer/domains/yourlawyer.com.au/public_html/wp-content/themes/your-lawyer-theme/page.php on line 15

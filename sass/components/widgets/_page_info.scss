@@ -1,0 +1,62 @@
+.page_info{
+    &__wrapper{
+        padding:110px 0 70px;
+        background-color: #b5d7f4;
+        // background-image: url(http://localhost:10003/wp-content/uploads/2020/12/Group-1411.png);
+        background-position: bottom right;
+        background-size: 60%;
+        background-repeat: no-repeat;
+        background-blend-mode: soft-light;
+        .description{
+            line-height: 2rem;
+        }
+    }
+    
+    
+}
+a.howcanwehelp{
+    border: 1px solid $color__white;
+    border-radius: 10px;
+}
+
+@include forsize(tabletpdown) {    
+    .page_info{
+        &__wrapper{
+            padding:70px 0 70px;
+            text-align: center;
+            .description{
+                text-align: center;
+            }
+        }
+    }
+
+}
+
+@include forsize(phoneonly) {    
+    .page_info{
+        &__wrapper{
+            padding:0px 0 30px;
+            text-align: center;
+            .description{
+                text-align: center;
+            }
+        }
+    }
+
+    .single{
+        .page_info{
+            &__wrapper{
+                padding:0px 15px 30px;
+                text-align: center;
+                .description{
+                    text-align: center;
+                }
+                .title_wrapper{
+                    padding-bottom: 0;
+                }
+            }
+            
+        }
+    }
+
+}

@@ -1,0 +1,12 @@
+[13-Oct-2021 12:55:54 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/lib/functions/post-type.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/lib/functions/post-type.php on line 14
+[08-Dec-2021 18:27:13 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/lib/functions/helper-functions.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/lib/functions/helper-functions.php on line 13
+[12-Dec-2021 12:43:34 Australia/Sydney] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/lib/functions/service-locator.php:8
+Stack trace:
+#0 {main}
+  thrown in /home2/yourlawyercom/public_html/wp-content/themes/your-lawyer-theme/lib/functions/service-locator.php on line 8

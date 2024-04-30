@@ -1,11 +1,12 @@
 <?php
-add_shortcode( 'gs_services_megamenu', 'gs_services_megamenu_shortcode' );
-function gs_services_megamenu_shortcode( $atts ) {
+add_shortcode('gs_services_megamenu', 'gs_services_megamenu_shortcode');
+function gs_services_megamenu_shortcode($atts)
+{
 
-    $atts = shortcode_atts( array(
+    $atts = shortcode_atts(array(
         'menu' => '',
         'col' => 1
-    ), $atts );
+    ), $atts);
 
     $column = $atts['col'];
 
@@ -16,11 +17,10 @@ function gs_services_megamenu_shortcode( $atts ) {
         'walker' => new GS_Service_Mega_Menu_Walker
     );
 
-    $args = wp_parse_args( $args, $defaults );
+    // $args = wp_parse_args( $args, $defaults );
 
     //$output = '';
-    $output = wp_nav_menu( $args );
+    $output = wp_nav_menu($defaults);
 
     return $output;
-
 }

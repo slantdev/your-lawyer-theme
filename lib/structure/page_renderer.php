@@ -1,26 +1,26 @@
 <?php
 
-    /**
-     * Function: Page Renderer
-     * Displays page content from the ACF form content
-     *
-     * @param String $flex_content	ID of flexible row form created in ACF
-     *
-     */
+/**
+ * Function: Page Renderer
+ * Displays page content from the ACF form content
+ *
+ * @param String $flex_content	ID of flexible row form created in ACF
+ *
+ */
 
-    function page_renderer($flex_content, $post_id)
-    {
-        
-        // Check value exists.
-        if (have_rows($flex_content, $post_id)):
+function page_renderer($flex_content, $post_id)
+{
 
-            // Loop through rows.
-            while (have_rows($flex_content, $post_id)) : the_row();
-            
+    // Check value exists.
+    if (have_rows($flex_content, $post_id)) :
 
-                $selected_layout = get_row_layout();
-                
-                switch ($selected_layout) {
+        // Loop through rows.
+        while (have_rows($flex_content, $post_id)) : the_row();
+
+
+            $selected_layout = get_row_layout();
+
+            switch ($selected_layout) {
 
                     /* -- format example -- /
                     case "section_name":
@@ -37,30 +37,30 @@
                     // team_listing
                     // image
 
-                    case "text_with_services":
-                        display_text_with_services_block(get_text_with_services_content());
-                        break;
-                    case "featured_slider":
-                        display_featured_slider_block(get_featured_slider_content());
-                        break;
-                    case "testimonial_slider":
-                        display_testimonial_slider_block(get_testimonial_slider_content());
-                        break;
-                    case "blog_grid":
-                        display_blog_grid_block(get_blog_grid_content());
-                        break;
-                    case "text_with_image":
-                        display_text_with_image_block(get_text_with_image_content());
-                        break;
-                    case "team_listing":
-                        display_team_listing_block(get_team_listing_content());
-                        break;
-                    case "text_editor":
-                        display_text_editor_block(get_text_editor_content());
-                        break;
-                    case "contact_section":
-                        display_contact_section_block(get_contact_section_content());
-                        break;
+                case "text_with_services":
+                    display_text_with_services_block(get_text_with_services_content());
+                    break;
+                case "featured_slider":
+                    display_featured_slider_block(get_featured_slider_content());
+                    break;
+                case "testimonial_slider":
+                    display_testimonial_slider_block(get_testimonial_slider_content());
+                    break;
+                case "blog_grid":
+                    display_blog_grid_block(get_blog_grid_content());
+                    break;
+                case "text_with_image":
+                    display_text_with_image_block(get_text_with_image_content());
+                    break;
+                    // case "team_listing":
+                    //     display_team_listing_block(get_team_listing_content());
+                    break;
+                case "text_editor":
+                    display_text_editor_block(get_text_editor_content());
+                    break;
+                case "contact_section":
+                    display_contact_section_block(get_contact_section_content());
+                    break;
 
                     // case "text_and_image":
                     //     display_image_with_text_block(get_image_with_text_block_content());
@@ -70,9 +70,9 @@
                     //     display_wide_image_with_text_block(get_wide_image_with_text_block_content());
                     //     break;
 
-                    case "color_text_block_with_image":
-                        display_color_text_block_with_image(get_color_text_block_with_image_content());
-                        break;
+                    // case "color_text_block_with_image":
+                    //     display_color_text_block_with_image(get_color_text_block_with_image_content());
+                    //     break;
 
                     // case "color_text_block":
                     //     display_color_text_block(get_color_text_block_content());
@@ -214,15 +214,15 @@
 
 
 
-                    default:
-                        break;
-                }
+                default:
+                    break;
+            }
 
-            // End loop.
-            endwhile;
+        // End loop.
+        endwhile;
 
-        // No value.
-        else :
-            // Invalid ACF form ID
-        endif;
-    }
+    // No value.
+    else :
+    // Invalid ACF form ID
+    endif;
+}

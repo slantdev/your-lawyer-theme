@@ -270,8 +270,8 @@ function get_peoplelist_content($limit = 12, $termID = array())
 							// Default to first category (not Yoast) if an error is returned
 							$category = get_the_terms(get_the_ID(), 'people_role');
 
-							$position = $category[0]->name;
-							$category_slug = $category[0]->slug;
+							$position = $category[0]->name ?? '';
+							$category_slug = $category[0]->slug ?? '';
 						} else {
 
 							// Set variables for category_display & category_slug based on Primary Yoast Term
